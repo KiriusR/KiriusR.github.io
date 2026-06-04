@@ -301,6 +301,23 @@ h2 {
   margin-top: 1rem;
 }
 
+.domain-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.5rem;
+}
+
+.domain-tags span {
+  background: var(--blue-soft);
+  border: 1px solid rgba(44, 123, 229, 0.22);
+  border-radius: 999px;
+  color: var(--navy);
+  font-size: 0.9rem;
+  font-weight: 750;
+  padding: 0.45rem 0.8rem;
+}
+
 .experience-grid {
   display: grid;
   gap: 1.5rem;
