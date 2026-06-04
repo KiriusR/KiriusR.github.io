@@ -453,26 +453,12 @@ h2 {
   align-items: center;
   display: flex;
   gap: 1rem;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
 }
 
 .site-footer p {
   margin: 0;
-}
-
-.footer-links {
-  display: flex;
-  gap: 1rem;
-}
-
-.footer-links a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer-links a:hover,
-.footer-links a:focus {
-  color: #8cc2ff;
 }
 
 @media (max-width: 991.98px) {
@@ -534,10 +520,6 @@ h2 {
     grid-template-columns: 1fr;
   }
 
-  .site-footer .container {
-    align-items: flex-start;
-    flex-direction: column;
-  }
 }
 
 @media (max-width: 575.98px) {
