@@ -222,6 +222,13 @@ h2 {
   font-size: 0.92rem;
   font-weight: 800;
   padding-top: 1.2rem;
+  text-decoration: none;
+}
+
+.cert-provider:hover,
+.cert-provider:focus {
+  color: var(--blue);
+  text-decoration: underline;
 }
 
 .cert-link {
