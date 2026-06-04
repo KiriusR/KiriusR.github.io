@@ -461,6 +461,42 @@ h2 {
   margin: 0;
 }
 
+.footer-policy-link {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
+  padding: 0;
+  text-decoration: none;
+}
+
+.footer-policy-link:hover,
+.footer-policy-link:focus {
+  color: #8cc2ff;
+  text-decoration: underline;
+}
+
+.privacy-modal {
+  border: 0;
+  border-radius: 8px;
+}
+
+.privacy-modal .modal-title {
+  color: var(--navy);
+  font-size: 1.35rem;
+  font-weight: 760;
+}
+
+.privacy-modal .modal-body {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.privacy-modal .modal-body p:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 991.98px) {
   .hero-section {
     min-height: auto;
@@ -518,6 +554,10 @@ h2 {
 
   .cv-grid {
     grid-template-columns: 1fr;
+  }
+
+  .site-footer .container {
+    flex-direction: column;
   }
 
 }
