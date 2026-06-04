@@ -217,7 +217,7 @@ h2 {
 }
 
 .cert-provider {
-  color: var(--navy);
+  color: var(--blue);
   display: inline-block;
   font-size: 0.92rem;
   font-weight: 800;
