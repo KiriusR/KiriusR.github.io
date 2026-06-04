@@ -301,23 +301,6 @@ h2 {
   margin-top: 1rem;
 }
 
-.experience-facts {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  margin-bottom: 2rem;
-}
-
-.experience-fact {
-  background: var(--blue-soft);
-  border: 1px solid rgba(44, 123, 229, 0.2);
-  border-radius: 8px;
-  color: var(--navy);
-  font-size: 0.95rem;
-  font-weight: 800;
-  padding: 1rem;
-}
-
 .experience-grid {
   display: grid;
   gap: 1.5rem;
@@ -483,10 +466,6 @@ h2 {
     min-height: 0;
   }
 
-  .experience-facts {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .experience-card {
     min-height: 0;
   }
@@ -519,7 +498,6 @@ h2 {
     right: 0;
   }
 
-  .experience-facts,
   .experience-grid {
     grid-template-columns: 1fr;
   }
