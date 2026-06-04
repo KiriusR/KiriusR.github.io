@@ -341,10 +341,6 @@ h2 {
   transform: translateY(-2px);
 }
 
-.experience-card-wide {
-  grid-column: span 2;
-}
-
 .experience-subtitle {
   color: var(--blue) !important;
   font-size: 0.92rem;
@@ -526,10 +522,6 @@ h2 {
   .experience-facts,
   .experience-grid {
     grid-template-columns: 1fr;
-  }
-
-  .experience-card-wide {
-    grid-column: auto;
   }
 
   .cv-grid {
