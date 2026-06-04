@@ -464,17 +464,17 @@ h2 {
 .footer-policy-link {
   background: transparent;
   border: 0;
-  color: #fff;
+  color: #cbd8e8;
   font: inherit;
-  font-weight: 700;
+  font-weight: 400;
   padding: 0;
   text-decoration: none;
 }
 
 .footer-policy-link:hover,
 .footer-policy-link:focus {
-  color: #8cc2ff;
-  text-decoration: underline;
+  color: #fff;
+  text-decoration: none;
 }
 
 .privacy-modal {
