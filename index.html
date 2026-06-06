@@ -13,7 +13,7 @@
       href="assets/bootstrap.min.css"
       rel="stylesheet"
     >
-    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/styles.css?v=languages3">
   </head>
   <body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="96" tabindex="0">
     <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
@@ -38,6 +38,27 @@
             <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
             <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
             <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item dropdown language-switcher">
+              <button
+                class="nav-link dropdown-toggle language-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                aria-label="Select language"
+              >
+                <img id="currentLanguageFlag" class="language-flag" src="assets/flags/gb.svg" alt="">
+                <span id="currentLanguageCode">EN</span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end language-menu">
+                <li><button class="dropdown-item active" type="button" data-language="en"><img class="language-flag" src="assets/flags/gb.svg" alt=""> EN</button></li>
+                <li><button class="dropdown-item" type="button" data-language="de"><img class="language-flag" src="assets/flags/de.svg" alt=""> DE</button></li>
+                <li><button class="dropdown-item" type="button" data-language="pl"><img class="language-flag" src="assets/flags/pl.svg" alt=""> PL</button></li>
+                <li><button class="dropdown-item" type="button" data-language="ru"><img class="language-flag" src="assets/flags/ru.svg" alt=""> RU</button></li>
+                <li><button class="dropdown-item" type="button" data-language="fr"><img class="language-flag" src="assets/flags/fr.svg" alt=""> FR</button></li>
+                <li><button class="dropdown-item" type="button" data-language="it"><img class="language-flag" src="assets/flags/it.svg" alt=""> IT</button></li>
+                <li><button class="dropdown-item" type="button" data-language="es"><img class="language-flag" src="assets/flags/es.svg" alt=""> ES</button></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
@@ -375,8 +396,8 @@
               </p>
               <div class="experience-tags" aria-label="IT outsourcing and client-facing delivery skills">
                 <span>IT Outsourcing</span>
-                <span>Client Delivery</span>
-                <span>Contracts</span>
+                <span>Fixed-Price Contracts</span>
+                <span>T&amp;M Contracts</span>
                 <span>Escalations</span>
               </div>
             </article>
@@ -557,7 +578,12 @@
           <div class="modal-body">
             <p>
               This website does not use contact forms, newsletters, analytics tools,
-              advertising pixels, or tracking cookies.
+              advertising pixels, tracking cookies, or similar tracking technologies.
+            </p>
+            <p>
+              This website stores your selected language locally in your browser to remember
+              your preference. This information is not transmitted, used for analytics, or
+              used to track visitors.
             </p>
             <p>
               If you contact me by email or through LinkedIn, any personal data you choose
@@ -580,6 +606,7 @@
     <script
       src="assets/bootstrap.bundle.min.js"
     ></script>
-    <script src="assets/script.js"></script>
+    <script src="assets/translations.js?v=languages8"></script>
+    <script src="assets/script.js?v=languages3"></script>
   </body>
 </html>
