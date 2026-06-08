@@ -517,6 +517,21 @@ button.contact-link {
   overflow-wrap: anywhere;
 }
 
+.copy-tooltip {
+  background: var(--navy);
+  border-radius: 999px;
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 750;
+  left: 0;
+  padding: 0.28rem 0.62rem;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  transform: translate(-50%, calc(-100% - 0.55rem));
+  z-index: 1100;
+}
+
 .site-footer {
   background: var(--navy-deep);
   color: #cbd8e8;

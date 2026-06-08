@@ -121,19 +121,63 @@ const emailRevealButton = document.querySelector("[data-email-reveal]");
 if (emailRevealButton) {
   const emailParts = ["k.rtsishchau", "gmail", "com"];
   let emailRevealed = false;
+  let copyTooltipTimeout;
+  let copyTooltip;
 
-  emailRevealButton.addEventListener("click", () => {
+  const showCopyTooltip = (event) => {
+    const buttonRect = emailRevealButton.getBoundingClientRect();
+    const left = event.clientX || buttonRect.left + buttonRect.width / 2;
+    const top = event.clientY || buttonRect.top;
+
+    copyTooltip?.remove();
+    window.clearTimeout(copyTooltipTimeout);
+    copyTooltip = document.createElement("span");
+    copyTooltip.className = "copy-tooltip";
+    copyTooltip.textContent = "Copied";
+    copyTooltip.style.left = `${left}px`;
+    copyTooltip.style.top = `${top}px`;
+    document.body.append(copyTooltip);
+
+    copyTooltipTimeout = window.setTimeout(() => {
+      copyTooltip?.remove();
+      copyTooltip = null;
+    }, 1200);
+  };
+
+  const copyEmailAddress = async (emailAddress) => {
+    if (navigator.clipboard?.writeText) {
+      try {
+        await navigator.clipboard.writeText(emailAddress);
+        return;
+      } catch {
+        // Fall back to the legacy copy command if clipboard permissions are unavailable.
+      }
+    }
+
+    const textArea = document.createElement("textarea");
+    textArea.value = emailAddress;
+    textArea.setAttribute("readonly", "");
+    textArea.style.position = "fixed";
+    textArea.style.opacity = "0";
+    document.body.append(textArea);
+    textArea.select();
+    document.execCommand("copy");
+    textArea.remove();
+  };
+
+  emailRevealButton.addEventListener("click", async (event) => {
     const emailAddress = `${emailParts[0]}@${emailParts[1]}.${emailParts[2]}`;
 
     if (!emailRevealed) {
       emailRevealButton.textContent = emailAddress;
       emailRevealButton.classList.add("email-revealed");
       emailRevealButton.setAttribute("aria-expanded", "true");
-      emailRevealButton.setAttribute("aria-label", "Email address revealed. Click again to open your email client.");
+      emailRevealButton.setAttribute("aria-label", "Email address revealed. Click again to copy it.");
       emailRevealed = true;
       return;
     }
 
-    window.location.href = `mailto:${emailAddress}`;
+    await copyEmailAddress(emailAddress);
+    showCopyTooltip(event);
   });
 }
