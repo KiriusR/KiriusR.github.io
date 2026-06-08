@@ -32,6 +32,7 @@ const translatableSelectors = [
   ".experience-tags span",
   "#contact h2",
   "#contact p",
+  ".email-reveal-label",
   "#contact .contact-link[target]",
   ".site-footer p",
   ".footer-policy-link",
@@ -114,3 +115,25 @@ document.querySelectorAll("[data-language]").forEach((button) => {
 const savedLanguage = localStorage.getItem(languageStorageKey);
 const browserLanguage = navigator.language.slice(0, 2).toLowerCase();
 setLanguage(savedLanguage || (translations[browserLanguage] ? browserLanguage : "en"));
+
+const emailRevealButton = document.querySelector("[data-email-reveal]");
+
+if (emailRevealButton) {
+  const emailParts = ["k.rtsishchau", "gmail", "com"];
+  let emailRevealed = false;
+
+  emailRevealButton.addEventListener("click", () => {
+    const emailAddress = `${emailParts[0]}@${emailParts[1]}.${emailParts[2]}`;
+
+    if (!emailRevealed) {
+      emailRevealButton.textContent = emailAddress;
+      emailRevealButton.classList.add("email-revealed");
+      emailRevealButton.setAttribute("aria-expanded", "true");
+      emailRevealButton.setAttribute("aria-label", "Email address revealed. Click again to open your email client.");
+      emailRevealed = true;
+      return;
+    }
+
+    window.location.href = `mailto:${emailAddress}`;
+  });
+}

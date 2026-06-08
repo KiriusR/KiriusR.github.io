@@ -42,6 +42,7 @@ window.siteTranslations = {
       "Team Scaling & Delivery Operations": "Team-Skalierung und Umsetzungsprozesse",
       "Let’s explore opportunities to work together.": "Lassen Sie uns Möglichkeiten der Zusammenarbeit erkunden.",
       "For collaboration, project inquiries, or professional conversations, you can reach me by email or connect with me on LinkedIn.": "Für Kooperationen, Projektanfragen oder fachlichen Austausch erreichen Sie mich per E-Mail oder über LinkedIn.",
+      "Reveal email address": "E-Mail-Adresse anzeigen",
       "LinkedIn Profile": "LinkedIn-Profil",
       "Professional profile.": "Professionelles Profil.",
       "Privacy Policy": "Datenschutzerklärung",
@@ -50,7 +51,7 @@ window.siteTranslations = {
       "This website stores your selected language locally in your browser to remember your preference. This information is not transmitted, used for analytics, or used to track visitors.": "Diese Website speichert die von Ihnen gewählte Sprache lokal in Ihrem Browser, um Ihre Präferenz zu merken. Diese Information wird nicht übertragen, für Analysen verwendet oder zur Nachverfolgung von Besuchern genutzt.",
       "If you contact me by email or through LinkedIn, any personal data you choose to share will be handled only for the purpose of responding to your message or discussing potential professional collaboration.": "Wenn Sie mich per E-Mail oder LinkedIn kontaktieren, werden Ihre freiwillig übermittelten personenbezogenen Daten ausschließlich zur Beantwortung Ihrer Nachricht oder zur Besprechung einer möglichen beruflichen Zusammenarbeit verwendet.",
       "This website may contain links to external websites, such as LinkedIn. Those websites are responsible for their own privacy practices.": "Diese Website kann Links zu externen Websites wie LinkedIn enthalten. Diese Websites sind für ihre eigenen Datenschutzpraktiken verantwortlich.",
-      "For privacy-related questions, you can contact me at:": "Bei Fragen zum Datenschutz erreichen Sie mich unter:"
+      "For privacy-related questions, use the email fallback in the contact section.": "Bei Fragen zum Datenschutz nutzen Sie bitte die E-Mail-Option im Kontaktbereich."
     }
   },
   pl: {
@@ -91,6 +92,7 @@ window.siteTranslations = {
       "Team Scaling & Delivery Operations": "Skalowanie zespołów i operacje delivery",
       "Let’s explore opportunities to work together.": "Porozmawiajmy o możliwościach współpracy.",
       "For collaboration, project inquiries, or professional conversations, you can reach me by email or connect with me on LinkedIn.": "W sprawie współpracy, projektów lub rozmów zawodowych napisz do mnie lub skontaktuj się przez LinkedIn.",
+      "Reveal email address": "Pokaż adres e-mail",
       "LinkedIn Profile": "Profil LinkedIn",
       "Professional profile.": "Profil zawodowy.",
       "Privacy Policy": "Polityka prywatności",
@@ -99,7 +101,7 @@ window.siteTranslations = {
       "This website stores your selected language locally in your browser to remember your preference. This information is not transmitted, used for analytics, or used to track visitors.": "Ta strona zapisuje wybrany język lokalnie w przeglądarce, aby zapamiętać preferencję. Informacja ta nie jest przesyłana, wykorzystywana do analiz ani używana do śledzenia odwiedzających.",
       "If you contact me by email or through LinkedIn, any personal data you choose to share will be handled only for the purpose of responding to your message or discussing potential professional collaboration.": "Jeśli skontaktujesz się ze mną przez e-mail lub LinkedIn, udostępnione dane osobowe będą wykorzystywane wyłącznie w celu odpowiedzi lub omówienia potencjalnej współpracy.",
       "This website may contain links to external websites, such as LinkedIn. Those websites are responsible for their own privacy practices.": "Ta strona może zawierać linki do zewnętrznych serwisów, takich jak LinkedIn. Serwisy te odpowiadają za własne zasady prywatności.",
-      "For privacy-related questions, you can contact me at:": "W sprawach dotyczących prywatności skontaktuj się ze mną:"
+      "For privacy-related questions, use the email fallback in the contact section.": "W sprawach dotyczących prywatności skorzystaj z opcji e-mail w sekcji kontaktowej."
     }
   },
   ru: {
@@ -140,6 +142,7 @@ window.siteTranslations = {
       "Team Scaling & Delivery Operations": "Масштабирование команд и delivery-операции",
       "Let’s explore opportunities to work together.": "Давайте обсудим возможности совместной работы.",
       "For collaboration, project inquiries, or professional conversations, you can reach me by email or connect with me on LinkedIn.": "По вопросам сотрудничества, проектов или профессионального общения напишите мне по электронной почте или свяжитесь со мной в LinkedIn.",
+      "Reveal email address": "Показать email",
       "LinkedIn Profile": "Профиль LinkedIn",
       "Professional profile.": "Профессиональный профиль.",
       "Privacy Policy": "Политика конфиденциальности",
@@ -148,7 +151,7 @@ window.siteTranslations = {
       "This website stores your selected language locally in your browser to remember your preference. This information is not transmitted, used for analytics, or used to track visitors.": "Этот сайт сохраняет выбранный язык локально в вашем браузере, чтобы запомнить предпочтение. Эта информация не передается, не используется для аналитики и не применяется для отслеживания посетителей.",
       "If you contact me by email or through LinkedIn, any personal data you choose to share will be handled only for the purpose of responding to your message or discussing potential professional collaboration.": "Если вы свяжетесь со мной по электронной почте или через LinkedIn, предоставленные персональные данные будут использоваться только для ответа на сообщение или обсуждения возможного профессионального сотрудничества.",
       "This website may contain links to external websites, such as LinkedIn. Those websites are responsible for their own privacy practices.": "Этот сайт может содержать ссылки на внешние ресурсы, например LinkedIn. Эти ресурсы самостоятельно отвечают за свою политику конфиденциальности.",
-      "For privacy-related questions, you can contact me at:": "По вопросам конфиденциальности вы можете связаться со мной:"
+      "For privacy-related questions, use the email fallback in the contact section.": "По вопросам конфиденциальности используйте email fallback в разделе контактов."
     }
   },
   fr: {
@@ -189,13 +192,14 @@ window.siteTranslations = {
       "Team Scaling & Delivery Operations": "Montée en charge des équipes et opérations de delivery",
       "Let’s explore opportunities to work together.": "Explorons les possibilités de collaboration.",
       "For collaboration, project inquiries, or professional conversations, you can reach me by email or connect with me on LinkedIn.": "Pour une collaboration, une demande de projet ou un échange professionnel, contactez-moi par e-mail ou sur LinkedIn.",
+      "Reveal email address": "Afficher l’adresse e-mail",
       "LinkedIn Profile": "Profil LinkedIn",
       "Professional profile.": "Profil professionnel.",
       "Privacy Policy": "Politique de confidentialité",
       "This website does not use contact forms, newsletters, analytics tools, advertising pixels, or tracking cookies.": "Ce site n’utilise ni formulaire de contact, ni newsletter, ni outil d’analyse, ni pixel publicitaire, ni cookie de suivi.",
       "This website does not use contact forms, newsletters, analytics tools, advertising pixels, tracking cookies, or similar tracking technologies.": "Ce site n’utilise ni formulaire de contact, ni newsletter, ni outil d’analyse, ni pixel publicitaire, ni cookie de suivi, ni technologie de suivi similaire.",
       "This website stores your selected language locally in your browser to remember your preference. This information is not transmitted, used for analytics, or used to track visitors.": "Ce site enregistre la langue sélectionnée localement dans votre navigateur afin de mémoriser votre préférence. Cette information n’est ni transmise, ni utilisée à des fins d’analyse, ni employée pour suivre les visiteurs.",
-      "For privacy-related questions, you can contact me at:": "Pour toute question relative à la confidentialité, contactez-moi à l’adresse suivante :"
+      "For privacy-related questions, use the email fallback in the contact section.": "Pour toute question relative à la confidentialité, utilisez l’option e-mail dans la section contact."
     }
   },
   it: {
@@ -236,13 +240,14 @@ window.siteTranslations = {
       "Team Scaling & Delivery Operations": "Crescita dei team e operazioni di delivery",
       "Let’s explore opportunities to work together.": "Esploriamo le opportunità di collaborazione.",
       "For collaboration, project inquiries, or professional conversations, you can reach me by email or connect with me on LinkedIn.": "Per collaborazioni, richieste di progetto o conversazioni professionali, contattami via e-mail o su LinkedIn.",
+      "Reveal email address": "Mostra indirizzo e-mail",
       "LinkedIn Profile": "Profilo LinkedIn",
       "Professional profile.": "Profilo professionale.",
       "Privacy Policy": "Informativa sulla privacy",
       "This website does not use contact forms, newsletters, analytics tools, advertising pixels, or tracking cookies.": "Questo sito non utilizza moduli di contatto, newsletter, strumenti di analisi, pixel pubblicitari o cookie di tracciamento.",
       "This website does not use contact forms, newsletters, analytics tools, advertising pixels, tracking cookies, or similar tracking technologies.": "Questo sito non utilizza moduli di contatto, newsletter, strumenti di analisi, pixel pubblicitari, cookie di tracciamento o tecnologie di tracciamento simili.",
       "This website stores your selected language locally in your browser to remember your preference. This information is not transmitted, used for analytics, or used to track visitors.": "Questo sito salva la lingua selezionata localmente nel browser per ricordare la preferenza. Questa informazione non viene trasmessa, utilizzata per analisi o impiegata per tracciare i visitatori.",
-      "For privacy-related questions, you can contact me at:": "Per domande relative alla privacy, puoi contattarmi a:"
+      "For privacy-related questions, use the email fallback in the contact section.": "Per domande relative alla privacy, usa l’opzione e-mail nella sezione contatti."
     }
   },
   es: {
@@ -283,13 +288,14 @@ window.siteTranslations = {
       "Team Scaling & Delivery Operations": "Escalado de equipos y operaciones de delivery",
       "Let’s explore opportunities to work together.": "Exploremos oportunidades para trabajar juntos.",
       "For collaboration, project inquiries, or professional conversations, you can reach me by email or connect with me on LinkedIn.": "Para colaboraciones, consultas sobre proyectos o conversaciones profesionales, puedes contactarme por correo electrónico o LinkedIn.",
+      "Reveal email address": "Mostrar correo electrónico",
       "LinkedIn Profile": "Perfil de LinkedIn",
       "Professional profile.": "Perfil profesional.",
       "Privacy Policy": "Política de privacidad",
       "This website does not use contact forms, newsletters, analytics tools, advertising pixels, or tracking cookies.": "Este sitio no utiliza formularios de contacto, boletines, herramientas de análisis, píxeles publicitarios ni cookies de seguimiento.",
       "This website does not use contact forms, newsletters, analytics tools, advertising pixels, tracking cookies, or similar tracking technologies.": "Este sitio no utiliza formularios de contacto, boletines, herramientas de análisis, píxeles publicitarios, cookies de seguimiento ni tecnologías de seguimiento similares.",
       "This website stores your selected language locally in your browser to remember your preference. This information is not transmitted, used for analytics, or used to track visitors.": "Este sitio guarda el idioma seleccionado localmente en el navegador para recordar la preferencia. Esta información no se transmite, no se utiliza para análisis ni se emplea para rastrear a los visitantes.",
-      "For privacy-related questions, you can contact me at:": "Para preguntas relacionadas con la privacidad, puedes contactarme en:"
+      "For privacy-related questions, use the email fallback in the contact section.": "Para preguntas relacionadas con la privacidad, usa la opción de correo electrónico en la sección de contacto."
     }
   }
 };

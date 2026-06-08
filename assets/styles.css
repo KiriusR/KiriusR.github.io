@@ -500,10 +500,21 @@ h2 {
   text-decoration: none;
 }
 
+button.contact-link {
+  cursor: pointer;
+  text-align: left;
+}
+
 .contact-link:hover,
 .contact-link:focus {
   border-color: var(--blue);
   color: var(--blue);
+}
+
+.email-reveal.email-revealed {
+  color: var(--blue);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  overflow-wrap: anywhere;
 }
 
 .site-footer {

@@ -13,7 +13,7 @@
       href="assets/bootstrap.min.css"
       rel="stylesheet"
     >
-    <link rel="stylesheet" href="assets/styles.css?v=languages3">
+    <link rel="stylesheet" href="assets/styles.css?v=email-reveal">
   </head>
   <body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="96" tabindex="0">
     <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
@@ -528,7 +528,14 @@
               </p>
             </div>
             <div class="contact-actions">
-              <a class="contact-link" href="mailto:k.rtsishchau@gmail.com">k.rtsishchau@gmail.com</a>
+              <button
+                class="contact-link email-reveal"
+                type="button"
+                aria-expanded="false"
+                data-email-reveal
+              >
+                <span class="email-reveal-label">Reveal email address</span>
+              </button>
               <a
                 class="contact-link"
                 href="https://www.linkedin.com/in/kiryl-rtsishchau/"
@@ -595,8 +602,7 @@
               websites are responsible for their own privacy practices.
             </p>
             <p>
-              For privacy-related questions, you can contact me at:
-              <a href="mailto:k.rtsishchau@gmail.com">k.rtsishchau@gmail.com</a>
+              For privacy-related questions, use the email fallback in the contact section.
             </p>
           </div>
         </div>
@@ -606,7 +612,7 @@
     <script
       src="assets/bootstrap.bundle.min.js"
     ></script>
-    <script src="assets/translations.js?v=languages8"></script>
-    <script src="assets/script.js?v=languages3"></script>
+    <script src="assets/translations.js?v=email-reveal"></script>
+    <script src="assets/script.js?v=email-reveal"></script>
   </body>
 </html>
